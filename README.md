@@ -15,20 +15,15 @@ Membuka ``text editor`` , di sini saya menggunakan ***Visual Studio Code.***
 
 ## Start Apache dan MySQL server dari menu 'XAMPP Control Panel'
 
-![](screenshot/XAMPP%20Control%20Panel%20fix.png)
+![](screenshot/XAMPP%20Control%20Panel.png)
 
+## Membuat Pencarian Data 'Praktikum 12'
 
+![](screenshot/ss1.png)
 
+## Membuat Pagination 'Praktikum 13'
 
-
-
-
-
-
-
-
-
-
+![](screenshot/ss2.png)
 
 
 
