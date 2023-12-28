@@ -1,0 +1,191 @@
+/* CSS */
+
+:root {
+    
+    --darkblue: #2a5b7f;
+    --ocean-sky: #e3e6f3;
+    --blue-tiktok: #69c9d0;
+    --red-tiktok: #ee1d52;
+    --white: #ffffff;
+    --black: #010101;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1;
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--white);
+    color: var(--white);
+    display: flex;
+}
+
+#container {
+    width: 980px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+    background-color: var(--white);
+}
+
+ 
+/* header */
+
+header {
+    padding: 10px;
+    background-color: var(--white);
+}
+
+header h1 {
+    margin: 10px 10px;
+    color: var(--black);
+}
+ 
+
+/* navigasi */
+
+nav {
+    display: block;
+    background-color: var(--blue-tiktok);
+}
+
+nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: var(--black);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+   
+}
+
+nav a.active,
+nav a:hover {
+    background-color: var(--red-tiktok);
+    color: var(--white);
+    transition: 0.5s ease;
+    border-radius: 7px;
+}
+ 
+
+/* Content Panel */
+
+.content {
+    background-color: var(--white);
+    padding: 50px 30px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: var(--black);
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+ 
+
+/* tabel */
+
+body{
+    font-family: sans-serif;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 20%;
+}
+
+th, td{
+    border: 1px solid var(--black);
+    font-size: 16px;
+    padding: 15px 15px;
+}
+
+table th {
+    background: var(--red-tiktok);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+}
+
+table tr {
+    background: var(--white);
+    color: var(--darkblue);
+    font-weight: 500;
+}
+ 
+
+/* Tambah Barang */
+
+.input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.input label {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-right: 50px;
+    font-weight: bold;
+    color: var(--black);
+    font-family: 'Segoe UI';
+}
+.input input[type="text"], form textarea {
+    height: 12px;
+    border: 1px solid rgb(66, 66, 66);
+    padding: 5px;
+}
+.submit input{
+    border: 1px solid var(--white);
+    background-color: var(--red-tiktok);
+    color: var(--white);
+    padding: 5px 15px;
+    margin-top: 5px;
+    margin-left: 170px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit input:hover {
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.3s ease;
+}
+
+
+/* footer */
+
+footer {
+    background-color: var(--blue-tiktok);
+    padding: 20px;
+    color: var(--white);
+    text-align: center;
+}
+
+footer p {
+    color: var(--black);
+    font-weight: 700;
+    font-family: 'Segoe UI';
+}
+
+footer a {
+    color: var(--white);
+    font-weight: 700;
+}
+
